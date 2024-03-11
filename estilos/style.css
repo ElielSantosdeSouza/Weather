@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+/*
+Cores: 
+Clouds - #87cefa #aee0ff #ffff
+Heavy Rain - #AAD5FA #A1D2FA #60AFEF
+Storm - #989594 #82807F #696969
+Sunny - #FBC374 #FCC080 #FBC570
+Weather - #FDEB9D #A1CEF8 #CEE6FA
+*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: #aee0ff;
+    background-image: linear-gradient(#87cefa, #aee0ff, #ffff);
+}
+
+main {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.466);
+    height: 80vh;
+    width: 75vw;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#weather {
+    font-size: 2.4em;
+    font-weight: normal;
+    
+}
+
+#weather-icon {
+    width: 30px;
+    height: 20px;
+}
+
+#temperature {
+    font-size: 2.6em;
+    font-weight: normal;
+}
