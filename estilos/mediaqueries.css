@@ -2,19 +2,56 @@
 
 @media screen and (min-width: 768px) and (max-width: 920px) {
     body {
-        background-image: url(../imagens/pexels-brett-sayles-912364.jpg);
+        background-image: url(../imagens/pexels-mohan-nannapaneni-10892856.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: bottom center;
     }
     main {
-        background-color: rgba(255, 255, 255, .1);
+        background-color: rgba(255, 255, 255, 0.1);
         border: 2px solid #ffffff30;
         backdrop-filter: blur(5px);
         height: 70vh;
         width: 65vw;
-        color: whitesmoke;
+        color: black;
 
         
+    }
+}
+
+@media screen and (min-width: 920px) and (max-width: 1200px){
+    body {
+        background-image: url(../imagens/pexels-mohan-nannapaneni-10892856.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom center;
+    }
+
+    main {
+        background-color: rgba(255, 255, 255, 0.1);
+        border: 2px solid #ffffff30;
+        backdrop-filter: blur(5px);
+        height: 65vh;
+        width: 60vw;
+        color: black;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        background-image: url(../imagens/pexels-mohan-nannapaneni-10892856.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom center;
+    }
+
+    main {
+        background-color: rgba(255, 255, 255, 0.1);
+        border: 2px solid #ffffff30;
+        backdrop-filter: blur(5px);
+        height: 65vh;
+        width: 58vw;
+        color: black;
     }
 }
